@@ -1,7 +1,7 @@
 import torch.nn as nn
 from torch_geometric.nn import SplineConv
 from torch_geometric.transforms import Cartesian
-from .modules import MaxPooling, MaxPoolingX
+from .MaxPooling import MaxPooling, MaxPoolingX
 
 class Encoder(nn.Module):
 
